@@ -10,7 +10,7 @@ const server = express();
 server.use(cors());
 server.use(express.json());
 server.use("/", services);
-server.use("/files", filesRoutes)
+server.use("/products", filesRoutes)
 
 const port = process.env.PORT || 5000;
 
