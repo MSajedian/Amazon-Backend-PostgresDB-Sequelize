@@ -14,4 +14,5 @@ filesRouter.post("/upload", multer().single("productPic"), async (req, res, next
     next(error)
   }
 })
+
 export default filesRouter
