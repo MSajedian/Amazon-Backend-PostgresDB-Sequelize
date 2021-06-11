@@ -10,4 +10,3 @@ export const writeProductsPictures = async (fileName, content) => await writeFil
 
 export const getCurrentFolderPath = currentFile => dirname(fileURLToPath(currentFile))
 
-export const readProductsPictures = fileName => createReadStream(join(productsFolderPath, fileName))

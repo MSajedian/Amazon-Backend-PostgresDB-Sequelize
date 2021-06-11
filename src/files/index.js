@@ -1,12 +1,6 @@
-// 1. upload single file
-// 2. upload multiple files
-// 3. download files
-
 import express from "express"
-import { writeProductsPictures, readProductsPictures } from "../lib/fs-tools.js"
+import { writeProductsPictures } from "../lib/fs-tools.js"
 import multer from "multer"
-import { pipeline } from "stream"
-import zlib from "zlib"
 
 const filesRouter = express.Router()
 
